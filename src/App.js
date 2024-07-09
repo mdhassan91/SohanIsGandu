@@ -10,6 +10,8 @@ import SuperAdminHomePage from './pages/SuperAdminHomePage';
 
 const App = () => {
   const [role, setRole] = useState('');
+  const [Srole, setSRole] = useState('');
+
 
   const handleLogin = (userRole) => {
     console.log('Setting role to:', userRole); // Debugging line
